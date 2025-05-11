@@ -19,7 +19,7 @@ COPY Wallet_LHSHIH1YSHO49EA6/ $ORACLE_WALLET_DIR/
  
  
 # Copiamos el JAR generado en el contenedor
-COPY target/api_foro-0.0.1-SNAPSHOT.jar.jar app.jar
+COPY target/api_foro-0.0.1-SNAPSHOT.jar app.jar
 # Exponemos el puerto 8080 (el que usa Spring Boot por defecto)
 EXPOSE 8080
 # Comando para ejecutar la aplicación cuando el contenedor arranque
