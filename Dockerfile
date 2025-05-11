@@ -1,5 +1,5 @@
 # Partimos de una imagen de Java 17 con Alpine (más ligera)
-FROM openjdk:17-jdk-slim 
+FROM openjdk:21-ea-24-oracle
  
  
 # Establecemos el directorio de trabajo dentro del contenedor
